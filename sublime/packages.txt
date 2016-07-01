@@ -1,0 +1,13 @@
+Package Control
+AdvancedNewFile
+SublimeLinter
+Emmet
+Elixir
+ElixirSublime
+F#
+Flatron
+GitGutter
+Markdown Preview
+Solarized Color Scheme
+Terminal
+Theme - Flatland
