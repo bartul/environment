@@ -1,0 +1,9 @@
+Vagrant
+Ioniode-FAKE
+Ionide-Paket
+Ionide-fsharp
+ESLint
+Advance New File
+C#
+Mono Debug
+Debugger for Chrome
