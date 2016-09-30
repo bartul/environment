@@ -1,0 +1,19 @@
+
+[credential]
+
+[core]
+
+[hub]
+protocol = https
+[user]
+	name = Bartul Bonacic
+	email = bartul.bonacic@live.com
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[rerare]
+[rerere]
+	enabled = true
