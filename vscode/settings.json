@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Controls the font family.
+    "editor.fontFamily": "Menlo, Consolas",
+
+    // Controls the font size.
+    "editor.fontSize": 14,
+
+    // Controls visibility of line numbers
+    "editor.lineNumbers": "off",
+
+    // Controls if the editor shows reference information for the modes that support it
+    "editor.referenceInfos": false,
+    
+    // Customizes which terminal application to run on OS X.
+    "terminal.external.osxExec": "iTerm.app",
+    
+    // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+    "terminal.integrated.fontFamily": "Menlo for Powerline, Consolas"
+}
