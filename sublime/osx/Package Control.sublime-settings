@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Elixir",
+		"ElixirSublime",
+		"Emmet",
+		"F#",
+		"Flatron",
+		"GitGutter",
+		"Markdown Preview",
+		"Package Control",
+		"Solarized Color Scheme",
+		"SublimeLinter",
+		"Terminal",
+		"Theme - Flatland"
+	]
+}
