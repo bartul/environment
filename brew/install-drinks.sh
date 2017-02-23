@@ -15,5 +15,6 @@ brew install elm
 brew install node
 brew install yarn
 
-
 brew install nyancat
+
+brew install mas
