@@ -22,3 +22,5 @@ code --install-extension seanmcbreen.Spell
 code --install-extension EditorConfig.EditorConfig
 
 
+code --install-extension vitor83.types-autoinstaller
+
