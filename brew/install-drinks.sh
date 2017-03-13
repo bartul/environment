@@ -7,6 +7,7 @@ brew install vim
 brew install curl
 brew install git
 brew install diff-so-fancy
+brew install fish 
 
 brew install mono
 brew install paket
