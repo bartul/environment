@@ -23,4 +23,4 @@ code --install-extension EditorConfig.EditorConfig
 
 
 code --install-extension vitor83.types-autoinstaller
-
+code --install-extension WallabyJs.quokka-vscode
