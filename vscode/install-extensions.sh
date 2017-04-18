@@ -18,7 +18,7 @@ code --install-extension humao.rest-client
 code --install-extension dkundel.vscode-new-file
 
 code --install-extension robertohuertasm.vscode-icons
-code --install-extension seanmcbreen.Spell
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension EditorConfig.EditorConfig
 
 
