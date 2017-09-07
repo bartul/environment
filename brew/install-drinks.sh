@@ -19,3 +19,9 @@ brew install yarn
 brew install nyancat
 
 brew install mas
+
+brew cask install chromium
+brew cask install spectacle
+brew cask install vagrant
+brew cask install dotnet-sdk
+
