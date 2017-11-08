@@ -1,6 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
-	"flatland_square_tabs": true,
+	"theme": "Adaptive.sublime-theme",
 	"font_face": "Menlo",
 	"font_options":
 	[
@@ -15,6 +14,5 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"margin": 4,
-	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
