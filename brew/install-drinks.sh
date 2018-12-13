@@ -26,3 +26,5 @@ brew cask install dotnet-sdk
 
 brew cask install chromium
 brew cask install spectacle
+
+brew install caskformula/caskformula/inkscape
