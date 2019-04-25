@@ -35,17 +35,12 @@
     // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
     "files.autoSave": "afterDelay",
 
-    // Runs elm-format on the file every time it is saved
-    "elm.formatOnSave": true,
-    
     // If set to true, the new version message won't be shown anymore.
     "vsicons.dontShowNewVersionMessage": true,
 
     // Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
     "window.nativeTabs": true,
 
-    "window.zoomLevel": 0,
-    
     // Controls font aliasing method in the workbench.
     // - default: Sub-pixel font smoothing. On most non-retina displays this will give the sharpest text
     // - antialiased: Smooth the font on the level of the pixel, as opposed to the subpixel. Can make the font appear lighter overall
@@ -65,6 +60,5 @@
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Fira Code, Menlo for Powerline, Consolas",
     "terminal.integrated.fontSize": 15,
-    "terminal.integrated.enableBold": false, 
     "editor.formatOnType": true
 }
