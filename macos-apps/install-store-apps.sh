@@ -1,4 +1,4 @@
-mas install 715768417 # Microsoft Remote Desktop
+mas install 1295203466 # Microsoft Remote Desktop
 mas install 823766827 # OneDrive
 
 mas install 1147396723 # WhatsApp Desktop
