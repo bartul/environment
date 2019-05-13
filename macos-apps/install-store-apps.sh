@@ -9,8 +9,8 @@ mas install 865500966 # Feedly
 mas install 405399194 # Kindle
 
 # Office
-784801555 # OneNote 
-462058435 # Excel
-462062816 # Powerpoint
-985367838 # Outlook
-462054704 # Word
+mas install 784801555 # OneNote 
+mas install 462058435 # Excel
+mas install 462062816 # Powerpoint
+mas install 985367838 # Outlook
+mas install 462054704 # Word
