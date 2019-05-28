@@ -60,5 +60,7 @@
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Fira Code, Menlo for Powerline, Consolas",
     "terminal.integrated.fontSize": 15,
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+
+    "FSharp.fsacRuntime": "netcore"
 }
