@@ -27,6 +27,6 @@ brew cask install chromium
 brew cask install spectacle
 brew cask install transmission
 
-brew install caskformula/caskformula/inkscape
+brew tap homebrew/cask-fonts
 
 brew cask install font-fira-code
