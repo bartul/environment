@@ -10,8 +10,6 @@ brew install git
 brew install diff-so-fancy
 brew install fish 
 
-brew install mono
-brew install paket
 brew install elm
 brew install node
 brew install wrk 
@@ -21,11 +19,12 @@ brew install nyancat
 brew install mas
 
 brew cask install dotnet-sdk
-brew cask install java
 
 brew cask install chromium
 brew cask install spectacle
 brew cask install transmission
+
+brew cask install aerial
 
 brew tap homebrew/cask-fonts
 
