@@ -56,11 +56,15 @@
     
     // Customizes which terminal application to run on OS X.
     "terminal.external.osxExec": "iTerm.app",
+
+    "breadcrumbs.enabled": false,
     
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Fira Code, Menlo for Powerline, Consolas",
     "terminal.integrated.fontSize": 15,
     "editor.formatOnType": true,
 
-    "FSharp.fsacRuntime": "netcore"
+    "FSharp.fsacRuntime": "netcore",
+    "editor.renderWhitespace": "selection"
+
 }
