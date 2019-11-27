@@ -6,6 +6,7 @@ brew install telnet
 
 brew install vim
 brew install curl
+brew install wget
 brew install git
 brew install diff-so-fancy
 brew install fish 
