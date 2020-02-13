@@ -5,13 +5,11 @@ code --install-extension Ionide.Ionide-fsharp
 code --install-extension Ionide.Ionide-Paket
 code --install-extension DotJoshJohnson.xml
 code --install-extension ms-vscode.PowerShell
-code --install-extension sbrink.elm
-code --install-extension abadi199.elm-format
+code --install-extension elmTooling.elm-ls-vscode
 
 code --install-extension dbaeumer.vscode-eslint
 
 code --install-extension PeterJausovec.vscode-docker
-code --install-extension bbenoist.vagrant
 code --install-extension msjsdiag.debugger-for-chrome
 
 code --install-extension humao.rest-client
