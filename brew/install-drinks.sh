@@ -31,3 +31,5 @@ brew tap homebrew/cask-fonts
 
 brew cask install font-fira-code
 brew cask install font-jetbrains-mono
+brew cask install font-cascadia-code
+brew cask install font-cascadia-code-pl
