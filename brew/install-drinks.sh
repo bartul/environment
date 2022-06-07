@@ -19,17 +19,17 @@ brew install nyancat
 
 brew install mas
 
-brew cask install dotnet-sdk
+brew install dotnet-sdk
 
-brew cask install chromium
-brew cask install spectacle
-brew cask install transmission
+brew install chromium --cask
+brew install spectacle --cask
+brew install transmission --cask
 
-brew cask install aerial
+brew install aerial --cask
 
 brew tap homebrew/cask-fonts
 
-brew cask install font-fira-code
-brew cask install font-jetbrains-mono
-brew cask install font-cascadia-code
-brew cask install font-cascadia-code-pl
+brew install font-fira-code --cask
+brew install font-jetbrains-mono --cask
+brew install font-cascadia-code --cask
+brew install font-cascadia-code-pl --cask
