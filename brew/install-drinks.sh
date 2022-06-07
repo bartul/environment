@@ -25,6 +25,9 @@ brew install chromium --cask
 brew install spectacle --cask
 brew install transmission --cask
 
+brew tap microsoft/git
+brew install git-credential-manager-core --cask 
+
 brew install aerial --cask
 
 brew tap homebrew/cask-fonts
