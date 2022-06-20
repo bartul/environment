@@ -10,6 +10,7 @@ brew install wget
 brew install git
 brew install diff-so-fancy
 brew install fish 
+brew install jq
 
 brew install elm
 brew install node
