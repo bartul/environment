@@ -2,7 +2,7 @@
 
 {
     // Controls the font family.
-    "editor.fontFamily": "Fira Code, Menlo, Consolas",
+    "editor.fontFamily": "Cascadia Code, Fira Code, Menlo, Consolas",
 
     // Controls the font size.
     "editor.fontSize": 14,
