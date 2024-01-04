@@ -21,19 +21,25 @@ brew install nyancat
 brew install mas
 
 brew install dotnet-sdk
+brew install visual-studio-code
 
-brew install chromium --cask
-brew install spectacle --cask
-brew install transmission --cask
+brew install azure-cli
+brew install kubernetes-cli
+brew install helm
+brew install gh
+
+brew install chromium
+brew install spectacle
+brew install transmission 
+
+brew install iterm2
 
 brew tap microsoft/git
-brew install git-credential-manager-core --cask 
-
-brew install aerial --cask
+brew install git-credential-manager-core 
 
 brew tap homebrew/cask-fonts
 
-brew install font-fira-code --cask
-brew install font-jetbrains-mono --cask
-brew install font-cascadia-code --cask
-brew install font-cascadia-code-pl --cask
+brew install font-fira-code
+brew install font-jetbrains-mono
+brew install font-cascadia-code
+brew install font-cascadia-code-pl
