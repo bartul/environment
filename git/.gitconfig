@@ -14,11 +14,11 @@ protocol = https
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
-[rerare]
 [rerere]
 	enabled = true
 [core]
     editor = vim
+    pager = diff-so-fancy | less --tabs=4 -RF
 [alias]
     co = checkout
     ec = config --global -e
@@ -35,4 +35,21 @@ protocol = https
     logg = log --oneline --graph --color --decorate
     st = status
     pu = !git push && git push --tags
+[interactive]
+    diffFilter = diff-so-fancy --patch
+[color]
+    ui = true
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
+[color "diff"]
+    meta = 11
+    frag = magenta bold
+    func = 146 bold
+    commit = yellow bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
 
