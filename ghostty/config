@@ -2,8 +2,8 @@
 #
 # This template file has been automatically created at the following
 # path since Ghostty couldn't find any existing config files on your system:
-#
 #   /Users/bartul/Library/Application Support/com.mitchellh.ghostty/config
+#
 #
 # The template does not set any default options, since Ghostty ships
 # with sensible defaults for all options. Users should only need to set
@@ -46,6 +46,7 @@ shell-integration = fish
 
 font-family = JetBrains Mono
 font-size = 13.0 
+font-thicken = true
 theme = dark:iTerm2 Solarized Dark,light:iTerm2 Solarized Light
 
 keybind = cmd+shift+d=new_split:right
