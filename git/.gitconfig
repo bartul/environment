@@ -35,6 +35,7 @@ protocol = https
     logg = log --oneline --graph --color --decorate
     st = status
     pu = !git push && git push --tags
+    plocal = "!git fetch --prune && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done"
 [interactive]
     diffFilter = diff-so-fancy --patch
 [color]
