@@ -26,11 +26,12 @@ brew install visual-studio-code
 brew install azure-cli
 brew install kubernetes-cli
 brew install helm
+brew install k9s
 brew install gh
 
 brew install chromium
-brew install spectacle
 brew install transmission 
+brew install rectangle
 
 brew install iterm2
 
