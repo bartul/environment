@@ -38,8 +38,6 @@ brew install iterm2
 brew tap microsoft/git
 brew install git-credential-manager-core 
 
-brew tap homebrew/cask-fonts
-
 brew install font-fira-code
 brew install font-jetbrains-mono
 brew install font-cascadia-code
