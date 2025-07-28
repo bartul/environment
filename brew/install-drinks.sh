@@ -24,9 +24,15 @@ brew install dotnet-sdk
 brew install visual-studio-code
 
 brew install azure-cli
+
 brew install kubernetes-cli
+brew install kubectx
+brew install kubelogin
+brew install kind
 brew install helm
+brew install helmfile
 brew install k9s
+
 brew install gh
 
 brew install chromium
