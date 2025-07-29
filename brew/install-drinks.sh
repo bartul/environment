@@ -12,6 +12,11 @@ brew install diff-so-fancy
 brew install fish 
 brew install jq
 
+brew install starship
+brew install font-caskaydia-mono-nerd-font
+brew install font-jetbrains-mono-nerd-font
+brew install font-fira-code-nerd-font
+
 brew install elm
 brew install node
 brew install wrk 
