@@ -62,3 +62,7 @@ Do not jump into implementatation or changes files unless clearly instructed to 
 <task_summary>
 After completing a task that involves tool use, provide a quick summary of the work you've done.
 </task_summary>
+
+<no_claude_attribution>
+CRITICAL: Never include "Claude", "Anthropic", "AI", or any Co-Authored-By attribution in commit messages or PR descriptions. This includes Co-Authored-By lines, mentions of AI assistance, or any reference to the assistant. Commit messages must appear as if written entirely by a human developer.
+</no_claude_attribution>
