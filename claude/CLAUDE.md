@@ -66,3 +66,18 @@ After completing a task that involves tool use, provide a quick summary of the w
 <no_claude_attribution>
 CRITICAL: Never include "Claude", "Anthropic", "AI", or any Co-Authored-By attribution in commit messages or PR descriptions. This includes Co-Authored-By lines, mentions of AI assistance, or any reference to the assistant. Commit messages must appear as if written entirely by a human developer.
 </no_claude_attribution>
+
+<implementation_workflow>
+When implementing non-trivial changes, follow this two-phase process:
+
+Phase 1 — Propose:
+- Analyze the problem and come up with multiple approaches (2-3 options)
+- For each option, provide a short description, code examples where appropriate (showing key signatures, usage patterns), and pros/cons analysis
+- Present all options and ask which approach the user prefers
+
+Phase 2 — Execute:
+- Break the chosen approach into small, sequential steps
+- Before each step, describe what will change and why (keep it short), then wait for user confirmation before making the change
+- After each step, validate with build/tests as appropriate
+- At the end, run the full pre-commit checklist before committing
+</implementation_workflow>
