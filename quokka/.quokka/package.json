@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "babel-core": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "jsdom-quokka-plugin": "^1.0.0"
-  }
-}
