@@ -1,0 +1,89 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": true,
+    },
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+  "languages": {
+    "FSharp": {
+      "indent_guides": {
+        "enabled": false,
+      },
+    },
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+    "enable_status": true,
+  },
+  "inline_code_actions": false,
+  "indent_guides": {
+    "enabled": false,
+  },
+  "inlay_hints": {
+    "show_value_hints": true,
+    "enabled": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true,
+    "selections_menu": false,
+    "agent_review": false,
+  },
+  "gutter": {
+    "bookmarks": false,
+    "runnables": true,
+    "line_numbers": false,
+  },
+  "relative_line_numbers": "enabled",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "show_wrap_guides": true,
+  "current_line_highlight": "none",
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": "JetBrains Mono",
+  "icon_theme": "Zed (Default)",
+
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true,
+  },
+  "vim_mode": true,
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}
