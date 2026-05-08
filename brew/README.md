@@ -41,7 +41,7 @@ To add a new package or app, edit `brew/Brewfile`:
 ```ruby
 brew "jq" # Command-line JSON processor
 cask "visual-studio-code" # Code editor
-tap "microsoft/git" # External Homebrew formula repository
+tap "owner/repo" # External Homebrew formula repository
 ```
 
 Use `brew "name"` for command-line formulae, `cask "name"` for GUI apps and fonts, and `tap "owner/repo"` for external Homebrew repositories.

@@ -8,7 +8,7 @@ brew "vim" # Installs the Vim terminal text editor
 brew "curl" # Transfers data with URLs from the command line
 brew "wget" # Downloads files from HTTP, HTTPS, and FTP sources
 brew "git" # Provides distributed version control
-brew "diff-so-fancy" # Improves Git diff readability in the terminal
+brew "git-delta" # Installs Delta, a syntax-highlighting pager for Git and diff output
 brew "fish" # Installs the Fish interactive shell
 brew "fisher" # Installs a plugin manager for the Fish shell
 brew "jq" # Parses and transforms JSON from the command line
@@ -41,14 +41,15 @@ brew "k9s" # Provides a terminal UI for managing Kubernetes clusters
 
 brew "gh" # Installs the GitHub command-line interface
 
+cask "claude-code" # Installs Anthropic's Claude Code terminal coding assistant
+cask "codex" # Installs OpenAI's Codex terminal coding assistant
+cask "copilot-cli" # Installs GitHub Copilot CLI for terminal-based coding assistance
+
 cask "chromium" # Installs the Chromium web browser
 cask "transmission" # Installs the Transmission BitTorrent client
 cask "rectangle" # Adds keyboard-driven window management for macOS
 
-cask "iterm2" # Installs the iTerm2 terminal emulator
-
-tap "microsoft/git" # Adds Microsoft's Homebrew tap for Git tooling
-brew "git-credential-manager-core" # Installs Microsoft's Git Credential Manager
+cask "ghostty" # Installs the Ghostty terminal emulator
 
 cask "font-fira-code" # Installs the Fira Code programming font
 cask "font-jetbrains-mono" # Installs the JetBrains Mono programming font
