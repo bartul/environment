@@ -1,0 +1,56 @@
+brew "tree" # Displays directory structures as a tree
+brew "watch" # Runs a command repeatedly and shows updated output
+brew "trash" # Moves files to the macOS Trash from the command line
+brew "openssl" # Provides TLS and cryptography libraries and tools
+brew "telnet" # Provides the Telnet client for testing raw TCP connections
+
+brew "vim" # Installs the Vim terminal text editor
+brew "curl" # Transfers data with URLs from the command line
+brew "wget" # Downloads files from HTTP, HTTPS, and FTP sources
+brew "git" # Provides distributed version control
+brew "diff-so-fancy" # Improves Git diff readability in the terminal
+brew "fish" # Installs the Fish interactive shell
+brew "fisher" # Installs a plugin manager for the Fish shell
+brew "jq" # Parses and transforms JSON from the command line
+
+brew "starship" # Provides a fast, customizable cross-shell prompt
+cask "font-caskaydia-mono-nerd-font" # Installs Caskaydia Mono Nerd Font with developer icons
+cask "font-jetbrains-mono-nerd-font" # Installs JetBrains Mono Nerd Font with developer icons
+cask "font-fira-code-nerd-font" # Installs Fira Code Nerd Font with developer icons
+
+brew "elm" # Installs the Elm language compiler and tools
+brew "node" # Installs the Node.js JavaScript runtime and npm
+brew "wrk" # Installs an HTTP benchmarking tool
+
+brew "nyancat" # Displays the animated Nyan Cat in the terminal
+
+brew "mas" # Installs a command-line interface for the Mac App Store
+
+cask "dotnet-sdk" # Installs the .NET SDK for building and running .NET apps
+cask "visual-studio-code" # Installs Microsoft's Visual Studio Code editor
+
+brew "azure-cli" # Installs Microsoft's Azure command-line interface
+
+brew "kubernetes-cli" # Installs kubectl for managing Kubernetes clusters
+brew "kubectx" # Switches quickly between Kubernetes contexts and namespaces
+brew "kubelogin" # Provides authentication helpers for Kubernetes clusters
+brew "kind" # Runs local Kubernetes clusters in Docker containers
+brew "helm" # Installs the Kubernetes package manager
+brew "helmfile" # Manages declarative Helm chart releases
+brew "k9s" # Provides a terminal UI for managing Kubernetes clusters
+
+brew "gh" # Installs the GitHub command-line interface
+
+cask "chromium" # Installs the Chromium web browser
+cask "transmission" # Installs the Transmission BitTorrent client
+cask "rectangle" # Adds keyboard-driven window management for macOS
+
+cask "iterm2" # Installs the iTerm2 terminal emulator
+
+tap "microsoft/git" # Adds Microsoft's Homebrew tap for Git tooling
+brew "git-credential-manager-core" # Installs Microsoft's Git Credential Manager
+
+cask "font-fira-code" # Installs the Fira Code programming font
+cask "font-jetbrains-mono" # Installs the JetBrains Mono programming font
+cask "font-cascadia-code" # Installs the Cascadia Code programming font
+cask "font-cascadia-code-pl" # Installs Cascadia Code PL with Powerline glyphs
