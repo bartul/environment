@@ -7,6 +7,7 @@ mas install 803453959 # Slack
 mas install 568494494 # Pocket
 mas install 865500966 # Feedly
 mas install 405399194 # Kindle
+mas install 6760943472 # Read.md
 
 # Office
 mas install 784801555 # OneNote 
