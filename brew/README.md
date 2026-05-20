@@ -1,12 +1,20 @@
 # Homebrew Setup
 
-This folder uses a `Brewfile` to install command-line tools, fonts, and macOS apps through Homebrew Bundle.
+This folder uses two Brewfiles to install everything through Homebrew Bundle:
+
+- `Brewfile` — command-line tools, casks, and fonts
+- `Brewfile.mas` — Mac App Store apps, installed via the `mas` directive
 
 ## Requirements
 
-Homebrew must be installed before this Brewfile can be used. The `brew` command also needs to be available in the current shell.
+Homebrew must be installed before either Brewfile can be used. The `brew` command also needs to be available in the current shell.
 
 After installing Homebrew, follow the shell setup instructions printed by the installer so `brew` is available in new terminal sessions.
+
+`Brewfile.mas` additionally requires:
+
+- The `mas` CLI, which is installed by the main `Brewfile`. Install `Brewfile` first.
+- An active Mac App Store sign-in. Open the App Store app and sign in before running `brew bundle` against `Brewfile.mas`.
 
 ## Install Homebrew
 
@@ -22,18 +30,25 @@ For current install options and platform requirements, see the official Homebrew
 
 https://docs.brew.sh/Installation
 
-## Install From The Brewfile
+## Install From The Brewfiles
 
-From the repository root, install everything listed in the Brewfile:
+From the repository root, install command-line tools, casks, and fonts:
 
 ```sh
 brew bundle --file brew/Brewfile
+```
+
+Then install Mac App Store apps (requires being signed into the App Store):
+
+```sh
+brew bundle --file brew/Brewfile.mas
 ```
 
 To check what would be installed without making changes:
 
 ```sh
 brew bundle check --file brew/Brewfile
+brew bundle check --file brew/Brewfile.mas
 ```
 
 To add a new package or app, edit `brew/Brewfile`:
@@ -45,3 +60,11 @@ tap "owner/repo" # External Homebrew formula repository
 ```
 
 Use `brew "name"` for command-line formulae, `cask "name"` for GUI apps and fonts, and `tap "owner/repo"` for external Homebrew repositories.
+
+To add a Mac App Store app, edit `brew/Brewfile.mas`:
+
+```ruby
+mas "App Name", id: 1234567890
+```
+
+Find an app's numeric ID with `mas search "app name"` or `mas list` for already-installed apps.
