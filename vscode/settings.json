@@ -2,7 +2,7 @@
 
 {
     // Controls the font family.
-    "editor.fontFamily": "Cascadia Code, Fira Code, Menlo, Consolas",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Fira Code, Cascadia Code, Menlo, Consolas",
 
     // Controls the font size.
     "editor.fontSize": 14,
@@ -28,18 +28,17 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
     "editor.detectIndentation": true,
 
-    "editor.renderIndentGuides": false,
 
-    "editor.minimap.enabled": false,
+"editor.minimap.enabled": false,
 
     // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
     "files.autoSave": "afterDelay",
 
-    // If set to true, the new version message won't be shown anymore.
-    "vsicons.dontShowNewVersionMessage": true,
-
     // Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
     "window.nativeTabs": true,
+    "window.autoDetectColorScheme": true,
+    "window.systemColorTheme": "auto",
+    "window.commandCenter": false,
 
     // Controls font aliasing method in the workbench.
     // - default: Sub-pixel font smoothing. On most non-retina displays this will give the sharpest text
@@ -47,26 +46,78 @@
     // - none: Disables font smoothing. Text will show with jagged sharp edges
     // "workbench.fontAliasing": "antialiased",
 
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "vscode-icons",
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "none",
     
     // Customizes which terminal application to run on OS X.
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "/opt/homebrew/bin/fish",
+    "terminal.explorerKind": "both",
 
     "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
     
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
-    "terminal.integrated.fontFamily": "Fira Code, Menlo for Powerline, Consolas",
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Fira Code, Cascadia Code, Menlo for Powerline, Consolas",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "bash",
+        "zsh",
+        "fish"
+    ],
+    "terminal.integrated.profiles.osx": {
+        "fish": {
+            "path": "/opt/homebrew/bin/fish"
+        },
+        "bash": null,
+        "zsh": null,
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
     "editor.formatOnType": true,
 
-    "FSharp.fsacRuntime": "netcore",
     "editor.renderWhitespace": "selection",
     "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "editor.guides.indentation": false,
-    "terminal.integrated.shellIntegration.enabled": false
+    "files.associations": {
+        "*.gotmpl": "yaml",
+        "*.yaml": "yaml"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "claudeCode.useTerminal": true,
+    "claudeCode.preferredLocation": "sidebar",
+    "git.blame.statusBarItem.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": true,
+        "windsurf": true,
+        "cursor-global": true,
+        "cursor-workspace": true
+    },
+    "cSpell.language": "en-GB",
+    "githubPullRequests.remotes": []
 }
