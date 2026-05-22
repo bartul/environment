@@ -44,9 +44,12 @@
 
 shell-integration = fish
 
-font-family = JetBrains Mono
-font-size = 13.0 
-font-thicken = true
+# font-family = JetBrainsMono, Fira Code, Cascadia Code
+# font-family = Iosevka
+font-family = JetBrainsMono
+font-size = 13
+# font-style = SemiLight
+# font-thicken = true
 theme = dark:iTerm2 Solarized Dark,light:iTerm2 Solarized Light
 
 keybind = cmd+shift+d=new_split:right
@@ -56,5 +59,9 @@ keybind = cmd+shift+down=resize_split:down,10
 keybind = cmd+shift+left=resize_split:left,10
 keybind = cmd+shift+right=resize_split:right,10
 
-# macos-titlebar-style = native 
+# macos-titlebar-style = native
 window-theme = auto
+keybind = shift+enter=text:\x1b\r
+
+foreground = #000000
+minimum-contrast = 3
