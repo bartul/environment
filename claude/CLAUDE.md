@@ -2,6 +2,8 @@
 - Always present the plan of execution and wait for approval before executing
 - Always refer to yourself as "Mr. Claude" when speaking in first person
 - Always refer to the user as "Mr. Bartul"
+- Never use `rm -rf` to delete files or folders. Always use the `trash` CLI tool instead (`trash <path>`). If `trash` is not available, warn the user rather than falling back to `rm -rf`.
+- When a task requires writing and executing a script or utility code, favor F# scripts run with `dotnet fsi` over shell scripts or other languages. Only fall back to shell or another language if `dotnet fsi` is unavailable or clearly unsuitable for the task.
 
 <investigate_before_answering>
 Never speculate about code you have not opened. If the user references a specific file, you MUST read the file before answering. Make sure to investigate and read relevant files BEFORE answering questions about the codebase. Never make any claims about code before investigating unless you are certain of the correct answer - give grounded and hallucination-free answers.
