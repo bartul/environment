@@ -50,14 +50,11 @@
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "left",
     "workbench.startupEditor": "none",
     
     // Customizes which terminal application to run on OS X.
     "terminal.external.osxExec": "/opt/homebrew/bin/fish",
-    "terminal.explorerKind": "both",
 
-    "breadcrumbs.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
@@ -97,17 +94,29 @@
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "editor.guides.indentation": false,
     "files.associations": {
+        "*.fs": "fsharp",
         "*.gotmpl": "yaml",
         "*.yaml": "yaml"
     },
     "go.toolsManagement.autoUpdate": true,
     "github.copilot.enable": {
         "*": true,
-        "plaintext": false,
-        "markdown": true,
         "scminput": false
     },
     "github.copilot.nextEditSuggestions.enabled": true,
+    "FSharp.enableTouchBar": false,
+    "FSharp.lineLens.enabled": "always",
+    "FSharp.inlineValues.enabled": true,
+    "FSharp.inlayHints.typeAnnotations": false,
+    "FSharp.infoPanelReplaceHover": true,
+    "FSharp.smartIndent": true,
+    "FSharp.inlayHints.parameterNames": false,
+    "[fsharp]": {
+        "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+    },
+    "zenMode.showTabs": "none",
+    "zenMode.centerLayout": false,
+    "zenMode.hideStatusBar": false,
     "claudeCode.useTerminal": true,
     "claudeCode.preferredLocation": "sidebar",
     "git.blame.statusBarItem.enabled": false,
@@ -119,5 +128,4 @@
         "cursor-workspace": true
     },
     "cSpell.language": "en-GB",
-    "githubPullRequests.remotes": []
 }
