@@ -18,7 +18,8 @@ protocol = https
 	enabled = true
 [core]
     editor = vim
-    pager = diff-so-fancy | less --tabs=4 -RF
+	pager = delta
+	excludesfile = ~/.gitignore_global
 [alias]
     co = checkout
     ec = config --global -e
@@ -37,7 +38,24 @@ protocol = https
     pu = !git push && git push --tags
     plocal = "!git fetch --prune && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done"
 [interactive]
-    diffFilter = diff-so-fancy --patch
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+	side-by-side = true
+[merge]
+	conflictstyle = zdiff3
+[delta "decorations"]
+	commit-decoration-style = blue ol
+	file-style = omit
+	hunk-header-decoration-style = blue box
+	hunk-header-line-number-style = "#067a00"
+	hunk-header-file-style = red
+	hunk-header-style = file line-number syntax
+[credential "https://github.com"]
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/opt/homebrew/bin/gh auth git-credential
 [color]
     ui = true
 [color "diff-highlight"]
@@ -46,9 +64,8 @@ protocol = https
     newNormal = green bold
     newHighlight = green bold 22
 [color "diff"]
-    meta = 11
+    meta = yellow
     frag = magenta bold
-    func = 146 bold
     commit = yellow bold
     old = red bold
     new = green bold
