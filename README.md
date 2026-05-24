@@ -10,6 +10,7 @@ Canonical reference configurations for this machine. Each directory maps to a sp
 | `ghostty/config` | `~/Library/Application Support/com.mitchellh.ghostty/config` |
 | `vscode/settings.json` | `~/Library/Application Support/Code/User/settings.json` |
 | `zed/settings.json` | `~/.config/zed/settings.json` |
+| `fish/config.fish` | `~/.config/fish/config.fish` |
 | `starship/starship.toml` | `~/.config/starship.toml` |
 | `claude/CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `brew/Brewfile` | used with `brew bundle` |
