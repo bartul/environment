@@ -1,24 +1,32 @@
-ms-vscode.csharp # C# language support and project tooling for VS Code.
-cake-build.cake-vscode # Cake build script language support.
-Ionide.Ionide-FAKE # FAKE build script support from the Ionide tooling suite.
+ms-dotnettools.csharp # Base C# language support for VS Code.
+ms-dotnettools.csdevkit # Higher-level C# project, solution, testing, and IDE tooling.
+ms-dotnettools.vscode-dotnet-runtime # .NET SDK and runtime installer used by .NET-related VS Code tooling.
 Ionide.Ionide-fsharp # F# language support, project tooling, and editor integration.
-Ionide.Ionide-Paket # Paket dependency manager support for .NET projects.
 DotJoshJohnson.xml # XML language formatting and editing tools.
+redhat.vscode-yaml # YAML language support, validation, formatting, and Kubernetes schema help.
 ms-vscode.PowerShell # PowerShell language support and integrated scripting tools.
-elmTooling.elm-ls-vscode # Elm language server integration.
 
 dbaeumer.vscode-eslint # ESLint diagnostics and fixes for JavaScript and TypeScript.
+DavidAnson.vscode-markdownlint # Markdown linting and style checking.
 
-PeterJausovec.vscode-docker # Dockerfile, Compose, image, and container tooling.
-msjsdiag.debugger-for-chrome # Chrome debugging support for legacy JavaScript workflows.
+ms-azuretools.vscode-containers # Container tooling for Docker, Docker Compose, and Podman workflows.
+ms-vscode-remote.remote-containers # Open folders and repositories inside development containers.
+ms-azuretools.vscode-azureresourcegroups # Browse and manage Azure resources from VS Code.
 
 humao.rest-client # Send HTTP requests from plain text request files.
 dkundel.vscode-new-file # Quickly create files and folders from the command palette.
-jebbs.plantuml # PlantUML diagram preview and editing support.
 
-robertohuertasm.vscode-icons # File and folder icon theme.
+vscode-icons-team.vscode-icons # File and folder icon theme.
 streetsidesoftware.code-spell-checker # Source-code-aware spell checking.
 EditorConfig.EditorConfig # EditorConfig formatting rules support.
+eamodio.gitlens # Git history, blame annotations, comparisons, and repository insights.
+GitHub.vscode-github-actions # GitHub Actions workflow and run integration inside VS Code.
+GitHub.vscode-pull-request-github # GitHub pull request and issue review integration.
 
-vitor83.types-autoinstaller # Automatic TypeScript typings installation helper.
 WallabyJs.quokka-vscode # JavaScript and TypeScript scratchpad execution.
+Anthropic.claude-code # Claude Code integration for using Anthropic's coding assistant inside VS Code.
+openai.chatgpt # OpenAI Codex coding agent integration for VS Code.
+
+AndenetAlexander.vim-cheatsheet # Vim cheatsheet reference inside VS Code.
+vintharas.learn-vim # Interactive Vim learning lessons inside VS Code.
+vscodevim.vim # Vim keybinding and modal editing emulation for VS Code.
