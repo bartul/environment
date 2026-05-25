@@ -1,0 +1,24 @@
+ms-vscode.csharp # C# language support and project tooling for VS Code.
+cake-build.cake-vscode # Cake build script language support.
+Ionide.Ionide-FAKE # FAKE build script support from the Ionide tooling suite.
+Ionide.Ionide-fsharp # F# language support, project tooling, and editor integration.
+Ionide.Ionide-Paket # Paket dependency manager support for .NET projects.
+DotJoshJohnson.xml # XML language formatting and editing tools.
+ms-vscode.PowerShell # PowerShell language support and integrated scripting tools.
+elmTooling.elm-ls-vscode # Elm language server integration.
+
+dbaeumer.vscode-eslint # ESLint diagnostics and fixes for JavaScript and TypeScript.
+
+PeterJausovec.vscode-docker # Dockerfile, Compose, image, and container tooling.
+msjsdiag.debugger-for-chrome # Chrome debugging support for legacy JavaScript workflows.
+
+humao.rest-client # Send HTTP requests from plain text request files.
+dkundel.vscode-new-file # Quickly create files and folders from the command palette.
+jebbs.plantuml # PlantUML diagram preview and editing support.
+
+robertohuertasm.vscode-icons # File and folder icon theme.
+streetsidesoftware.code-spell-checker # Source-code-aware spell checking.
+EditorConfig.EditorConfig # EditorConfig formatting rules support.
+
+vitor83.types-autoinstaller # Automatic TypeScript typings installation helper.
+WallabyJs.quokka-vscode # JavaScript and TypeScript scratchpad execution.
