@@ -51,6 +51,7 @@
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
+    "breadcrumbs.enabled": false,
     
     // Customizes which terminal application to run on OS X.
     "terminal.external.osxExec": "/opt/homebrew/bin/fish",
@@ -93,6 +94,8 @@
     "workbench.editor.editorActionsLocation": "hidden",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "editor.guides.indentation": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 5,
     "files.associations": {
         "*.fs": "fsharp",
         "*.gotmpl": "yaml",

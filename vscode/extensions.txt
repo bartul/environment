@@ -2,19 +2,24 @@ ms-dotnettools.csharp # Base C# language support for VS Code.
 ms-dotnettools.csdevkit # Higher-level C# project, solution, testing, and IDE tooling.
 ms-dotnettools.vscode-dotnet-runtime # .NET SDK and runtime installer used by .NET-related VS Code tooling.
 Ionide.Ionide-fsharp # F# language support, project tooling, and editor integration.
-DotJoshJohnson.xml # XML language formatting and editing tools.
 redhat.vscode-yaml # YAML language support, validation, formatting, and Kubernetes schema help.
-ms-vscode.PowerShell # PowerShell language support and integrated scripting tools.
 
 dbaeumer.vscode-eslint # ESLint diagnostics and fixes for JavaScript and TypeScript.
 DavidAnson.vscode-markdownlint # Markdown linting and style checking.
+
+# vue.volar # Vue.js language support for .vue single-file components — install per-project, not globally.
+# ms-python.python # Python language support — install per-project, not globally.
+# ms-python.vscode-pylance # Pyright-based type checking and IntelliSense for Python.
+# ms-python.debugpy # Python debugger integration.
+# ms-python.vscode-python-envs # Python virtual environment management.
 
 ms-azuretools.vscode-containers # Container tooling for Docker, Docker Compose, and Podman workflows.
 ms-vscode-remote.remote-containers # Open folders and repositories inside development containers.
 ms-azuretools.vscode-azureresourcegroups # Browse and manage Azure resources from VS Code.
 
 humao.rest-client # Send HTTP requests from plain text request files.
-dkundel.vscode-new-file # Quickly create files and folders from the command palette.
+
+ms-vsliveshare.vsliveshare # Real-time collaborative editing and debugging sessions.
 
 vscode-icons-team.vscode-icons # File and folder icon theme.
 streetsidesoftware.code-spell-checker # Source-code-aware spell checking.
