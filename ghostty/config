@@ -63,6 +63,5 @@ keybind = cmd+shift+right=resize_split:right,10
 window-theme = auto
 # cursor
 shell-integration-features = no-cursor
-cursor-style = block
 cursor-invert-fg-bg
 keybind = shift+enter=text:\x1b\r
