@@ -192,6 +192,7 @@ vimcmd_visual_symbol = '[ ](bg:color_bg1)'
 
 [kubernetes]
 disabled = false
+symbol = "󰀵 "
 format = '[$symbol$context ]($style)'
 style = 'bg:color_orange fg:color_fg0'
 
