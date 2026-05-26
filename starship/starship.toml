@@ -22,6 +22,7 @@ $java\
 $kotlin\
 $haskell\
 $python\
+$dotnet\
 [](fg:color_blue bg:color_bg3)\
 $docker_context\
 $azure\
@@ -150,6 +151,12 @@ format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 symbol = ""
 style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+
+[dotnet]
+symbol = "󰊮 "
+style = "bg:color_blue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+detect_extensions = ["csproj", "fsproj", "xproj", "slnx"]
 
 [docker_context]
 symbol = ""
