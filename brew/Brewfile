@@ -23,12 +23,14 @@ cask "font-jetbrains-mono" # Installs JetBrains Mono programming font
 cask "font-jetbrains-mono-nerd-font" # Installs JetBrains Mono Nerd Font with developer icons
 cask "font-fira-code-nerd-font" # Installs Fira Code Nerd Font with developer icons
 
-brew "elm" # Installs the Elm language compiler and tools
 brew "go" # Installs the Go programming language runtime
 brew "node" # Installs the Node.js JavaScript runtime and npm
 brew "pnpm" # Installs the fast, disk-efficient Node.js package manager
 brew "wrk" # Installs an HTTP benchmarking tool
 
+brew "pass" # Stores and retrieves GPG-encrypted passwords via the Unix password manager
+brew "pipx" # Installs Python CLI tools in isolated virtual environments
+brew "mkdocs" # Generates static documentation sites from Markdown
 brew "nyancat" # Displays the animated Nyan Cat in the terminal
 
 brew "mas" # Installs a command-line interface for the Mac App Store
@@ -48,11 +50,13 @@ brew "k9s" # Provides a terminal UI for managing Kubernetes clusters
 
 brew "gh" # Installs the GitHub command-line interface
 
+tap "go-task/tap"
+brew "go-task/tap/go-task" # Installs Task, a Make alternative using Taskfile.yml
+
 cask "claude-code" # Installs Anthropic's Claude Code terminal coding assistant
 cask "codex" # Installs OpenAI's Codex terminal coding assistant
 cask "copilot-cli" # Installs GitHub Copilot CLI for terminal-based coding assistance
 
-cask "chromium" # Installs the Chromium web browser
 cask "rectangle" # Adds keyboard-driven window management for macOS
 
 cask "ghostty" # Installs the Ghostty terminal emulator
