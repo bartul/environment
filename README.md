@@ -15,11 +15,13 @@ Canonical reference configurations for this machine. Each directory maps to a sp
 | `claude/CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `brew/Brewfile` | used with `brew bundle` |
 
-Each tool directory may contain its own `README.md` with additional instructions and tool-specific notes that supplement this document — check there first before reconciling that tool's config.
-
 ## Reconciliation process
 
 When syncing a config between local and this repo, follow this process one difference at a time:
+
+### 0. Check for a tool-specific README
+
+Before starting, look for a `README.md` inside the tool's directory (e.g. `brew/README.md`). If one exists, read it first — it may extend or modify the steps below with requirements, caveats, or a different resolution approach specific to that tool.
 
 ### 1. Read both files
 
