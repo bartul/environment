@@ -1,6 +1,6 @@
 # Starship Prompt
 
-[Starship](https://starship.rs) is a fast, customizable cross-shell prompt. This config uses the Gruvbox Dark palette with a powerline-style layout showing Kubernetes context, directory, git status, language versions, and Docker context.
+[Starship](https://starship.rs) is a fast, customizable cross-shell prompt. This config uses the Gruvbox Dark palette with a powerline-style layout showing Kubernetes context, directory, git branch/status/commit, language versions (C, Rust, Go, Node.js, Java, Kotlin, Haskell, Python, .NET, Helm), and environment context (Docker, Azure, conda, pixi).
 
 ## Install
 
