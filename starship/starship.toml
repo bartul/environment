@@ -175,13 +175,13 @@ disabled = false
 
 [character]
 disabled = false
-format = '$symbol'
-success_symbol = '[ I ](bg:color_bg1)'
-error_symbol = '[ I ](bg:color_bg1)'
-vimcmd_symbol = '[ N ](bg:color_bg1)'
-vimcmd_replace_one_symbol = '[ R ](bg:color_bg1)'
-vimcmd_replace_symbol = '[ R ](bg:color_bg1)'
-vimcmd_visual_symbol = '[ V ](bg:color_bg1)'
+format = "$symbol"
+success_symbol = '[ ](bg:color_bg1)'
+error_symbol = '[ ](bg:color_bg1)'
+vimcmd_symbol = '[ ](bg:color_bg1)'
+vimcmd_replace_one_symbol = '[ ](bg:color_bg1)'
+vimcmd_replace_symbol = '[ ](bg:color_bg1)'
+vimcmd_visual_symbol = '[ ](bg:color_bg1)'
 
 [kubernetes]
 disabled = false
