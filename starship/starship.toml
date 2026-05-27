@@ -4,6 +4,7 @@ add_newline = false
 
 format = """
 [](color_orange)\
+$os\
 $kubernetes\
 [](bg:color_yellow fg:color_orange)\
 $directory\
