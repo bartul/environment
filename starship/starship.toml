@@ -37,6 +37,7 @@ palette = 'gruvbox_dark'
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
+color_fg1 = '#fbf1c7'
 color_bg1 = '#3c3836'
 color_bg3 = '#665c54'
 color_blue = '#458588'
@@ -45,11 +46,40 @@ color_green = '#98971a'
 color_orange = '#d65d0e'
 color_purple = '#b16286'
 color_red = '#cc241d'
+color_cyan = '#83a598'
 color_yellow = '#d79921'
+
+[palettes.solarized_dark]
+color_fg0 = '#EEE8D5'
+color_fg1 = '#EEE8D5'
+color_bg1 = '#002B36'
+color_bg3 = '#073642'
+color_blue = '#268BD2'
+color_aqua = '#2AA198'
+color_green = '#859900'
+color_orange = '#CB4B16'
+color_purple = '#6C71C4'
+color_red = '#DC322F'
+color_cyan = '#2AA198'
+color_yellow = '#B58900'
+
+[palettes.monokai_pro]
+color_fg0 = '#FCFCFA'
+color_fg1 = '#5B585D'
+color_bg1 = '#2D2A2E'
+color_bg3 = '#403E41'
+color_blue = '#78DCE8'
+color_aqua = '#58D1EB'
+color_green = '#A9DC76'
+color_orange = '#FC9867'
+color_purple = '#AB9DF2'
+color_red = '#FF6188'
+color_cyan = '#78DCE8'
+color_yellow = '#FFD866'
 
 [os]
 disabled = false
-style = "bg:color_orange fg:color_fg0"
+style = "bg:color_orange fg:color_fg1"
 
 [os.symbols]
 Windows = "󰍲"
@@ -76,12 +106,12 @@ Pop = ""
 
 [username]
 show_always = true
-style_user = "bg:color_orange fg:color_fg0"
-style_root = "bg:color_orange fg:color_fg0"
+style_user = "bg:color_orange fg:color_fg1"
+style_root = "bg:color_orange fg:color_fg1"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_fg0 bg:color_yellow"
+style = "fg:color_fg1 bg:color_yellow"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -96,78 +126,78 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:color_aqua"
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_aqua)]($style)'
+format = '[[ $symbol $branch ](fg:color_fg1 bg:color_aqua)]($style)'
 truncation_length = 20
 truncation_symbol = "…"
 
 [git_status]
 style = "bg:color_aqua"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_aqua)]($style)'
+format = '[[($all_status$ahead_behind )](fg:color_fg1 bg:color_aqua)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [c]
 symbol = " "
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [cpp]
 symbol = " "
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [php]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [java]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [kotlin]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [haskell]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [python]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 
 [dotnet]
 symbol = "󰊮 "
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_fg1 bg:color_blue)]($style)'
 detect_extensions = ["csproj", "fsproj", "xproj", "slnx"]
 
 [docker_context]
 symbol = ""
 style = "bg:color_bg3"
-format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
+format = '[[ $symbol( $context) ](fg:color_cyan bg:color_bg3)]($style)'
 
 [conda]
 style = "bg:color_bg3"
-format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
+format = '[[ $symbol( $environment) ](fg:color_cyan bg:color_bg3)]($style)'
 
 [pixi]
 style = "bg:color_bg3"
@@ -196,18 +226,18 @@ vimcmd_visual_symbol = '[ ](bg:color_bg1)'
 disabled = false
 symbol = "󰀵 "
 format = '[$symbol$context ]($style)'
-style = 'bg:color_orange fg:color_fg0'
+style = 'bg:color_orange fg:color_fg1'
 
 [git_commit]
-style = "fg:color_fg0 bg:color_aqua"
+style = "fg:color_fg1 bg:color_aqua"
 format = '[\($hash$tag\)]($style)'
 tag_disabled = false
 
 [git_state]
-style = 'fg:color_fg0 bg:color_aqua'
+style = 'fg:color_fg1 bg:color_aqua'
 format = '[ \($state( $progress_current/$progress_total)\) ]($style)'
 
 [helm]
 format = '[$symbol($version )]($style)'
-style = 'bg:color_blue fg:color_fg0'
+style = 'bg:color_blue fg:color_fg1'
 detect_files = ['helmfile.yaml', 'Chart.yaml', 'helmfile.yaml.gotmpl']
