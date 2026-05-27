@@ -33,7 +33,7 @@ $character\
 [ ](fg:color_bg1)\
 """
 
-palette = 'gruvbox_dark'
+palette = 'gruvbox_light'
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
@@ -49,11 +49,39 @@ color_red = '#cc241d'
 color_cyan = '#83a598'
 color_yellow = '#d79921'
 
+[palettes.gruvbox_light]
+color_fg0 = '#3C3836'
+color_fg1 = '#EBDBB2'
+color_bg1 = '#EBDBB2'
+color_bg3 = '#D5C4A1'
+color_blue = '#076678'
+color_aqua = '#427B58'
+color_green = '#79740E'
+color_orange = '#AF3A03'
+color_purple = '#8F3F71'
+color_red = '#9D0006'
+color_cyan = '#427B58'
+color_yellow = '#B57614'
+
 [palettes.solarized_dark]
 color_fg0 = '#EEE8D5'
 color_fg1 = '#EEE8D5'
 color_bg1 = '#002B36'
 color_bg3 = '#073642'
+color_blue = '#268BD2'
+color_aqua = '#2AA198'
+color_green = '#859900'
+color_orange = '#CB4B16'
+color_purple = '#6C71C4'
+color_red = '#DC322F'
+color_cyan = '#2AA198'
+color_yellow = '#B58900'
+
+[palettes.solarized_light]
+color_fg0 = '#073642'
+color_fg1 = '#073642'
+color_bg1 = '#EEE8D5'
+color_bg3 = '#FDF6E3'
 color_blue = '#268BD2'
 color_aqua = '#2AA198'
 color_green = '#859900'
