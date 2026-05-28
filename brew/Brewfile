@@ -39,6 +39,7 @@ cask "dotnet-sdk" # Installs the .NET SDK for building and running .NET apps
 cask "zed" # Installs the Zed high-performance code editor
 
 brew "azure-cli" # Installs Microsoft's Azure command-line interface
+brew "powershell" # Installs PowerShell cross-platform shell and scripting language
 
 brew "kubernetes-cli" # Installs kubectl for managing Kubernetes clusters
 brew "kubectx" # Switches quickly between Kubernetes contexts and namespaces
