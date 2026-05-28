@@ -109,6 +109,7 @@ color_yellow = '#FFD866'
 [os]
 disabled = false
 style = "bg:color_orange fg:color_fg1"
+format = "[$symbol ]($style)"
 
 [os.symbols]
 Windows = "󰍲"
@@ -253,7 +254,7 @@ vimcmd_visual_symbol = '[ ](bg:color_bg1)'
 
 [kubernetes]
 disabled = false
-format = '[ $context ]($style)'
+format = '[$context ]($style)'
 style = 'bg:color_orange fg:color_fg1'
 
 [git_commit]
