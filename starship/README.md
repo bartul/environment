@@ -32,6 +32,8 @@ cp starship/starship.toml ~/.config/starship.toml
 
 Starship picks up the file automatically — no shell restart needed, just open a new terminal.
 
+> **Do not symlink** `~/.config/starship.toml` to this repo. Starship and some tools resolve symlinks unexpectedly across environments. Always copy the file manually and re-copy when the repo config changes.
+
 ## Update
 
 ```sh
