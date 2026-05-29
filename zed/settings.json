@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "terminal": {
+    "dock": "left",
     "toolbar": {
       "breadcrumbs": true,
     },
