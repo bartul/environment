@@ -123,6 +123,8 @@
     "claudeCode.useTerminal": true,
     "claudeCode.preferredLocation": "sidebar",
     "git.blame.statusBarItem.enabled": false,
+    "git.blame.editorDecoration.enabled": false,
+    "gitlens.currentLine.enabled": false,
     "chat.viewSessions.orientation": "stacked",
     "chat.mcp.discovery.enabled": {
         "claude-desktop": true,
