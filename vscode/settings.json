@@ -130,5 +130,6 @@
         "cursor-global": true,
         "cursor-workspace": true
     },
+    "redhat.telemetry.enabled": false,
     "cSpell.language": "en-GB",
 }
