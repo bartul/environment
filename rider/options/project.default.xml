@@ -1,0 +1,22 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="880" y="287" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1771538011702">
+          <screen x="0" y="25" width="2560" height="1340" />
+        </state>
+        <state x="880" y="287" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.2560.1340" timestamp="1771538011702" />
+        <state x="789" y="232" width="1457" height="991" key="SettingsEditor" timestamp="1770582519507">
+          <screen x="0" y="25" width="2560" height="1340" />
+        </state>
+        <state x="789" y="232" width="1457" height="991" key="SettingsEditor/0.25.2560.1340" timestamp="1770582519507" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

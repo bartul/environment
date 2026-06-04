@@ -1,0 +1,11 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="cassandra">
+      <artifact id="Cassandra" name="Cassandra" use="true" version="1.3.1" />
+    </driver>
+    <driver id="mysql.8">
+      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" />
+    </driver>
+    <driver id="snowflake" />
+  </component>
+</application>

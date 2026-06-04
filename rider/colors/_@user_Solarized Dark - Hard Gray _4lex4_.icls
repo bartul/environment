@@ -1,0 +1,20 @@
+<scheme name="_@user_Solarized Dark - Hard Gray (4lex4)" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2025.3.1.0.0</property>
+    <property name="originalScheme">Solarized Dark - Hard Gray (4lex4)</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.4lex4.intellij.solarized</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.1" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
+  </font>
+  <option name="EDITOR_LIGATURES" value="true" />
+</scheme>

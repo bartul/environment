@@ -1,0 +1,179 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ActivateTerminalToolWindow" />
+      <option value="EditorToggleActions" />
+      <option value="ToggleZenMode" />
+      <option value="RefactoringMenu" />
+      <option value="GotoLine" />
+      <option value="WelcomeScreen.Plugins" />
+      <option value="AIAssistant.Toolwindow.Scale" />
+      <option value="AIAssistant.CleanupCodexInstallationAction" />
+      <option value="CloseContent" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="C#" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Dialog" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "0",
+    "AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "true",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN_ONLY_ON_HOVER": "false",
+    "AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR": "false",
+    "AIHubNotificationManager.lastTariffQuotaAvailable": "300000",
+    "AIHubNotificationManager.lastUsedLicenseType": "FREE",
+    "AttachDialogCommandLine_Width": "205",
+    "AttachDialogDebuggers_Width": "82",
+    "AttachDialogExecutable_Width": "165",
+    "AttachDialogProcessId_Width": "51",
+    "AttachDialogProcessOwner_Width": "46",
+    "BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "1",
+    "BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "false",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN_ONLY_ON_HOVER": "true",
+    "BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "false",
+    "DISTRACTION.MODE.ENTER.VALUE": "false",
+    "Debug.Allow.Typing": "true",
+    "DiffRequestProcessor.BottomComponentSplitter": "0.99",
+    "InstalledPluginsSearchHistory": "mcp\nmcp server\nmcp ser\nmc\nmcp p",
+    "KEYMAP": "focus escape\nopen terminal\nopenn terminal",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "4",
+    "MarketplacePluginsSearchHistory": "/tag:\"Code Tools\"\nai\ncodex\ncode\nco",
+    "PluginConfigurable.selectionTab": "1",
+    "RD.Init.Cfg.2": "true",
+    "RD.Init.DialogShown.Ide": "true",
+    "RIDER_TECH_INSIGHTS_BUTTON_CLICKED": "true",
+    "Rider.Current.Build.Use.Start": "2026-05-27T20:01:31.546381Z",
+    "Rider.Last.Observed.New.UI.State": "true",
+    "Rider.Last.Started.IDE.Build": "RD-261.24374.190",
+    "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.MCP settings loaded": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.appTitleMigration.2026.1.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.claude.code.byok.migration": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.terminal.escape.behavior.change.notification": "true",
+    "RunOnceActivity.trace.non.commercial.popup.id": "true",
+    "SettingsSearchHistory": "mcp\nmcp server\nmcp plugin\nai assista\nai assi",
+    "WelcomeFeature.SHORT_WELCOME_GUIDE_SHOWN": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "cef_cleanup_temporary_cache_folder": "/Users/bartul/Library/Caches/JetBrains/Rider2026.1/jcef_cache_temp",
+    "cef_is_cleared_caches_2026_1_2": "true",
+    "enter_selection_count": "2",
+    "evlsprt.251": "19890d90b00",
+    "evlsprt.252": "19890d90b00",
+    "evlsprt.253": "1997370db00",
+    "evlsprt.261": "19e6126e700",
+    "evlsprt3.251": "7",
+    "evlsprt3.252": "3",
+    "evlsprt3.253": "5",
+    "evlsprt3.261": "5",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "261.24374.190",
+    "fileTypeChangedCounter": "5",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "git.working.trees.number.of.projects.with.git": "3",
+    "got.it.tooltip.com.intellij.ml.llm.chat.june.promo.got.it.tooltip.id": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
+    "idea.islands.enabled": "true",
+    "ift.hide.welcome.screen.promo": "true",
+    "last_open_solution_path": "/Users/bartul/code/imperium-77",
+    "llm.chat.promo.event.codex_free_promo.codex_was_set": "true",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER_AIA_DISABLED",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Light",
+    "registry.to.advanced.settings.migration.build": "RD-261.24374.190",
+    "rider.color.scheme.updated": "true",
+    "tab_selection_count": "3",
+    "terminal.gen.one.option.visible": "false",
+    "toolwindow.stripes.buttons.info.shown": "true",
+    "trial.state.last.availability.check": "0",
+    "trial.state.last.state": "EXPIRED",
+    "ts.lib.d.ts.version": "5.9.3",
+    "whats.new.last.shown.version": "2026-1.2-24374-237b5907c908b91ea74a308004560fddb82073ed"
+  },
+  "keyToStringList": {
+    "AIHubNotificationManager.gotItNotifications": [
+      "FREE_ENABLED"
+    ],
+    "AIHubNotificationManager.lastAllNotifications": [],
+    "AIHubNotificationManager.notifications": [],
+    "AIHubNotificationManager.seenNotifications": [],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "project_template_sources": [
+      "/Users/bartul/Applications/Rider.app/Contents/plugins/sqlproj-plugin/Rider.Sqlproj.Worker/Templates/microsoft.build.sql.templates.2.0.0-preview.1.nupkg",
+      "/Users/bartul/Library/Application Support/JetBrains/Rider2025.3/plugins/sqlproj-plugin/Rider.Sqlproj.Worker/Templates/microsoft.build.sql.templates.2.0.0-preview.1.nupkg",
+      "/Applications/Rider.app/Contents/plugins/sqlproj-plugin/Rider.Sqlproj.Worker/Templates/microsoft.build.sql.templates.2.0.0-preview.1.nupkg"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage"><![CDATA[{
+  "enterKeyPressedTimes": 1776,
+  "firstIdeSessionMoment": {
+    "type": "org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted"
+  }
+}]]></component>
+  <component name="TerminalAgentsState">{}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="vngage.IncontactAgentIntegration-history" project-path="$USER_HOME$/code/vngage.IncontactAgentIntegration/src" last-access-time="1647891038688" />
+      <command-history-file filename="Puzzel.EngageAgentIntegration-history" project-path="$USER_HOME$/code/engage-agent-integration" last-access-time="1647618219555" />
+    </command-history-files>
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="SHOW_NEW_MAIN_TOOLBAR" value="true" />
+  </component>
+  <component name="XcodeSettings">
+    <option name="detectedXcodes">
+      <list>
+        <option value="/Applications/Xcode.app/Contents/Developer" />
+      </list>
+    </option>
+    <option name="selectedXcode" value="/Library/Developer/CommandLineTools" />
+  </component>
+</application>
