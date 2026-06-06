@@ -13,6 +13,7 @@ Canonical reference configurations for this machine. Each directory maps to a sp
 | `fish/config.fish` | `~/.config/fish/config.fish` |
 | `starship/starship.toml` | `~/.config/starship.toml` |
 | `claude/CLAUDE.md` | `~/.claude/CLAUDE.md` |
+| `codex/AGENTS.md` | `~/.codex/AGENTS.md` |
 | `brew/Brewfile` | used with `brew bundle` |
 
 ## Reconciliation process
