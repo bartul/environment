@@ -96,11 +96,20 @@
     "editor.guides.indentation": false,
     "editor.stickyScroll.enabled": true,
     "editor.stickyScroll.maxLineCount": 5,
+    "comments.visible": false,
     "files.associations": {
         "*.fs": "fsharp",
         "*.gotmpl": "yaml",
         "*.yaml": "yaml"
     },
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
     "go.toolsManagement.autoUpdate": true,
     "github.copilot.enable": {
         "*": true,
@@ -123,7 +132,6 @@
     "claudeCode.useTerminal": true,
     "claudeCode.preferredLocation": "sidebar",
     "git.blame.statusBarItem.enabled": false,
-    "git.blame.editorDecoration.enabled": false,
     "gitlens.currentLine.enabled": false,
     "chat.viewSessions.orientation": "stacked",
     "chat.mcp.discovery.enabled": {
